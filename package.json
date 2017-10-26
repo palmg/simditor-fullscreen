@@ -1,19 +1,19 @@
 {
-  "name": "simditor-fullscreen",
-  "description": "Add fullscreen support for Simditor.",
-  "version": "0.1.1",
+  "name": "rsimditor-fullscreen",
+  "description": "Add fullscreen support for RSimditor.",
+  "version": "1.0.0",
   "main": "lib/simditor-fullscreen.js",
   "homepage": "https://github.com/heroicyang/simditor-fullscreen",
   "author": {
-    "name": "HeroicYang",
-    "email": "yangxiong@mycolorway.com"
+    "name": "chkui",
+    "email": "chenkui@chkui.com"
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/heroicyang/simditor-fullscreen.git"
+    "url": "https://github.com/palmg/simditor-fullscreen"
   },
   "bugs": {
-    "url": "https://github.com/heroicyang/simditor-fullscreen/issues"
+    "url": "https://github.com/palmg/simditor-fullscreen/issues"
   },
   "scripts": {
     "test": "grunt test --verbose"
@@ -26,5 +26,8 @@
     "grunt-contrib-jasmine": "0.x",
     "grunt-umd": "2.x"
   },
-  "keywords": ["simditor", "fullscreen"]
+  "keywords": [
+    "simditor",
+    "fullscreen"
+  ]
 }

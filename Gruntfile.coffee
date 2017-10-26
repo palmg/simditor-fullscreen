@@ -33,8 +33,8 @@ module.exports = (grunt) ->
         globalAlias: 'SimditorFullscreen'
         deps:
           'default': ['$', 'Simditor']
-          amd: ['jquery', 'simditor']
-          cjs: ['jquery', 'simditor']
+          amd: ['jquery', 'r-simditor']
+          cjs: ['jquery', 'r-simditor']
           global:
             items: ['jQuery', 'Simditor']
             prefix: ''
@@ -73,5 +73,5 @@ module.exports = (grunt) ->
   grunt.loadNpmTasks 'grunt-contrib-jasmine'
   grunt.loadNpmTasks 'grunt-umd'
 
-  grunt.registerTask 'default', ['sass', 'coffee', 'umd', 'jasmine', 'watch']
+  grunt.registerTask 'default', ['sass', 'coffee', 'umd']
   grunt.registerTask 'test', ['sass', 'coffee', 'umd', 'jasmine']
